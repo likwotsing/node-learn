@@ -79,3 +79,17 @@ In the above example, Node will search for a package definition file called pack
 Now, Node.js will find log.js file using *main* entry in package.json and import it.
 
 > If package.json file does not exist then it will look for index.js file as a module file by default.
+
+## Node Package Manager
+
+Node Package Manager(NPM) is a command line tool that installs, updates or uninstalls Node.js packages in your application.
+
+```js
+npm -v
+
+// update npm
+npm install npm -g
+```
+
+All the modules installed using NPM are installed under **node_modules** folder.
+

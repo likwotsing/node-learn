@@ -93,3 +93,9 @@ npm install npm -g
 
 All the modules installed using NPM are installed under **node_modules** folder.
 
+## Node.js Web Server
+
+A **MIME type** (now properly called "media type", but also sometimes "content type") is a string sent along with a file indicating the type of the file (describing the content format, for example, a sound file might be labeled <kbd>audio/ogg</kbd> , or an image file <kbd>image/png</kbd>).
+
+[List of MIME types](https://www.iana.org/assignments/media-types/media-types.xhtml)
+

@@ -99,3 +99,61 @@ A **MIME type** (now properly called "media type", but also sometimes "content t
 
 [List of MIME types](https://www.iana.org/assignments/media-types/media-types.xhtml)
 
+## Node.js File System
+
+**Reading File**
+
+```js
+var fs = require('fs')
+// asynchronously
+fs.readFile('test.txt', 'utf-8', function(err, data) {
+    if (err) {
+        throw err
+    }
+    console.log(data)
+})
+
+// synchronously
+var data = fs.readFileSync('test.txt', 'utf-8')
+console.log(data)
+```
+
+**Write File**
+
+Use fs.writeFile() method to write data to a file. If file already exists then it overwrites the existing content otherwise it creates a new file and writes data into it.
+
+Use fs.appendFile() method to append the content to an existing file.
+
+```js
+var fs = require('fs')
+
+// creating & writing file
+fs.writeFile('test.txt', 'Hello World!', function(err) {
+    if (err) {
+        throw err
+    } else {
+    	console.log('Write operation complete.') 
+    }
+})
+
+// append file content
+fs.appendFile('test.txt', 'append content', function(err) {
+    if (err) {
+        console.log(err)
+    } else {
+        console.log('Append operation complete.')
+    }
+})
+```
+
+**Open File**
+
+**Delete File**
+
+```js
+var fs = require('fs')
+fs.unlink('test.txt', function() {
+    console.log('delete operation complete.')
+})
+```
+

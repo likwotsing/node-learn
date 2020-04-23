@@ -196,3 +196,10 @@ node --inspect-brk app.js // 启动命令，默认端口是9229
 
 chrome浏览器里：`chrome://inspect`
 
+## Node.js EventEmitter
+
+There are two common patterns that can be to raise and bind an event using EventEmitter class in Node.js.
+
+1. Return EventEmitter from a function
+2. Extend the EventEmitter class
+

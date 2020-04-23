@@ -185,5 +185,14 @@ watchers
 
 Write `help` in debug mode in the Node.js console(REPL).
 
+## Node Inspector
 
+[参考](https://www.npmjs.com/package/node-inspector)
+
+```js
+npm install -g node-inspect // 安装
+node --inspect-brk app.js // 启动命令，默认端口是9229
+```
+
+chrome浏览器里：`chrome://inspect`
 

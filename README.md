@@ -157,3 +157,33 @@ fs.unlink('test.txt', function() {
 })
 ```
 
+## Debugging Node.js
+
+1. Core Node.js debugger
+2. Node Inspector
+3. Built-in debugger in IDEs
+
+```js
+// app.js
+var fs = require('fs')
+fs.readFile('test.txt', 'utf-8', function(err, data) {
+  debugger
+  if (err) {
+    throw err
+  }
+  console.log(data)
+})
+
+// REPL
+// deprecated
+node debug app.js
+
+node inspect app.js
+watch('data')
+watchers
+```
+
+Write `help` in debug mode in the Node.js console(REPL).
+
+
+

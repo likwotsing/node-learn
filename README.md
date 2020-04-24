@@ -215,3 +215,31 @@ Express.js is based on the Node.js middleware module called **connect** which in
 
 ![express.js](./13-Express.js/expressjs.png)
 
+## Node.js Data Access
+
+Node.js supports all kinds of databases no matter if it is a relational database or NoSQL database. However, NoSQL databases like MongoDB are the best fit with Node.js.
+
+To access the database from Node.js, you first need to install drivers for the database you want to use.
+
+The following table lists important relational databases and respective drivers.
+
+| Relational Databases | Driver                                                 | NPM Command             |
+| -------------------- | ------------------------------------------------------ | ----------------------- |
+| MS SQL Server        | [mssql](https://www.npmjs.com/package/mssql)           | npm install mssql       |
+| Oracle               | [oracledb](https://www.npmjs.com/package/oracledb)     | npm install oracledb    |
+| MySQL                | [MySQL](https://www.npmjs.com/package/mysql)           | npm install mysql       |
+| PostgreSQL           | [pg](https://www.npmjs.com/package/pg)                 | npm install pg          |
+| SQLite               | [node-sqlite3](https://github.com/mapbox/node-sqlite3) | npm install node-sqlite |
+
+The following table lists important NoSQL databases and respective drivers.
+
+| NoSQL Databases | Driver                                                       | NPM Command                         |
+| --------------- | ------------------------------------------------------------ | ----------------------------------- |
+| MongoDB         | [mongodb](https://www.npmjs.com/package/mongodb)             | npm install mongodb                 |
+| Cassandra       | [cassandra-driver](https://www.npmjs.com/package/cassandra-driver) | npm install cassandra-driver        |
+| LevelDB         | [leveldb](https://www.npmjs.com/package/leveldb)             | npm install level levelup leveldown |
+| RavenDB         | [ravendb](https://www.npmjs.com/package/ravendb)             | npm install ravendb                 |
+| Neo4j           | [neo4j](https://www.npmjs.com/package/neo4j)                 | npm install neo4j                   |
+| Redis           | [redis](https://npmjs.org/package/redis)                     | npm install redis                   |
+| CouchDB         | [nano](https://www.npmjs.com/package/nano)                   | npm install nano                    |
+

@@ -209,3 +209,9 @@ You learned that we need to write lots of low level code ourselves to create a w
 
 There are various third party open-source frameworks avalibale in Node Package Manager which makes Node.js application development faster and easy. **You can choose an appropriate frameworks as per your application requirements.**
 
+## Express.js
+
+Express.js is based on the Node.js middleware module called **connect** which in turn uses **http** module. So, any middleware which is based on connect will also work with Express.js.
+
+![express.js](./13-Express.js/expressjs.png)
+

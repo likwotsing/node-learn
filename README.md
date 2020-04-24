@@ -203,3 +203,9 @@ There are two common patterns that can be to raise and bind an event using Event
 1. Return EventEmitter from a function
 2. Extend the EventEmitter class
 
+## Frameworks for Node.js
+
+You learned that we need to write lots of low level code ourselves to create a web application using Node.js in *Node.js web server* section.
+
+There are various third party open-source frameworks avalibale in Node Package Manager which makes Node.js application development faster and easy. **You can choose an appropriate frameworks as per your application requirements.**
+

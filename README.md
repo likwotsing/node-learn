@@ -283,3 +283,10 @@ Advantages of Template engine in Node.js:
 4. Maximizes client side processing.
 5. Single template for multiple pages.
 6. Templates can be accessed from CDN(Content Delivery Network).
+
+### Jade
+
+Jade template must b written inside .jade file. And all .jade files must be put inside **views** folder in the root folder of Node.js application.
+
+By default Express.js seearches all the views in the views folder under the root folder, which can be set to another folder using views property in express e.g. `app.set('views', 'MyViews')`.
+

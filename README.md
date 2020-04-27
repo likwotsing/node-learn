@@ -290,3 +290,11 @@ Jade template must b written inside .jade file. And all .jade files must be put 
 
 By default Express.js seearches all the views in the views folder under the root folder, which can be set to another folder using views property in express e.g. `app.set('views', 'MyViews')`.
 
+### GruntJS
+
+```js
+npm install grunt nodemon grunt-nodemon --save-dev
+```
+
+Gruntfile.js必须放在根目录（和package.json同目录）
+

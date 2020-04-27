@@ -1,0 +1,9 @@
+<!DOCTYP html>
+<html>
+<head>
+  <title>@model.title</title>
+</head>
+<body>
+  @html.block('body')
+</body>
+</html>

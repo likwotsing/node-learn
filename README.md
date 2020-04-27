@@ -253,3 +253,33 @@ The following table lists important NoSQL databases and respective drivers.
 
 - [x] Install MongoDB Compass. 默认是勾选的，**取消掉**。
 
+## Template Engine
+
+The following is a list of import (but not limited) template engines for Node.js.
+
+\> [Jade](https://github.com/pugjs/pug)
+
+\> [Vash](https://github.com/kirbysayshi/vash)
+
+\> [EJS](https://github.com/tj/ejs)
+
+\> [Mustache](https://github.com/janl/mustache.js)
+
+\> [Dust.js](https://github.com/linkedin/dustjs)
+
+\> [Nunjucks](https://github.com/mozilla/nunjucks)
+
+\> [Handlebars](https://github.com/wycats/handlebars.js)
+
+\> [atpl](https://github.com/soywiz/atpl.js)
+
+\> [haml](https://github.com/tj/haml.js)
+
+Advantages of Template engine in Node.js:
+
+1. Improves developer's productivity.
+2. Improves readability and maintainability.
+3. Faster performance.
+4. Maximizes client side processing.
+5. Single template for multiple pages.
+6. Templates can be accessed from CDN(Content Delivery Network).

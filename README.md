@@ -42,6 +42,12 @@ The core modules include bare minimum functionalities of Node.js. These core mod
 var module = require('module_name')
 ```
 
+## 04-Node.js Basics
+
+**Defaults to local**
+
+Node's Javascript is different from browser's JavaScript when it comes to global scope. In the browser's JavaScript, variables declared without var keyword become global. **In Node.js, everthing becomes local by default**.
+
 ## 05-Export Module
 
 The **module.exports** or **exports** is a special object which is includes in every JS file in the Node.js application by default.  *module* is a varible that represents current module and *exports* is an object that will be exposed as a module. So, whatever you assign to *module.exports* or *exports*, will be exposed as a module.
@@ -297,4 +303,3 @@ npm install grunt nodemon grunt-nodemon --save-dev
 ```
 
 Gruntfile.js必须放在根目录（和package.json同目录）
-

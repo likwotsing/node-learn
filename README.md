@@ -243,3 +243,13 @@ The following table lists important NoSQL databases and respective drivers.
 | Redis           | [redis](https://npmjs.org/package/redis)                     | npm install redis                   |
 | CouchDB         | [nano](https://www.npmjs.com/package/nano)                   | npm install nano                    |
 
+### Mongodb
+
+[参考](https://www.runoob.com/mongodb/mongodb-window-install.html)
+
+[下载](https://www.mongodb.com/download-center/compass)
+
+安装时注意：
+
+- [x] Install MongoDB Compass. 默认是勾选的，**取消掉**。
+
